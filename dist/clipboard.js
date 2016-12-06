@@ -446,7 +446,7 @@ module.exports = E;
                 this.fakeElem.style.padding = '0';
                 this.fakeElem.style.margin = '0';
                 // Move element out of screen horizontally
-                this.fakeElem.style.position = 'absolute';
+                this.fakeElem.style.position = 'fixed';
                 this.fakeElem.style[isRTL ? 'right' : 'left'] = '-9999px';
                 // Move element to the same position vertically
                 var yPosition = window.pageYOffset || document.documentElement.scrollTop;
